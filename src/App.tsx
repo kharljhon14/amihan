@@ -1,6 +1,7 @@
 import Header from './components/header';
 import Hero from './features/hero';
 import Products from './features/products';
+import ShopNow from './features/shop-now';
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <Header />
       <main className="space-y-12">
         <Hero />
-        <div className="mx-4">
+        <div className="mx-4 space-y-12">
           <Products />
+          <ShopNow />
         </div>
       </main>
     </>
