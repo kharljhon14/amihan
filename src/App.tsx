@@ -1,3 +1,4 @@
+import Footer from './components/footer';
 import Header from './components/header';
 import Hero from './features/hero';
 import Journals from './features/journals';
@@ -18,6 +19,7 @@ function App() {
         </div>
         <LearnMore />
       </main>
+      <Footer />
     </>
   );
 }
