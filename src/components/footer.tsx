@@ -50,7 +50,7 @@ export default function Footer() {
       <div className="flex justify-between uppercase text-sm text-gray-500 mt-10">
         <p className="font-semibold">Karlikha</p>
         <p className="">Crafted with 💙 in the Philippines.</p>
-        <p className="">© 2025 Amihan. All rights reserved.</p>
+        <p className="">© 2025 La Princesse. All rights reserved.</p>
       </div>
     </motion.footer>
   );
