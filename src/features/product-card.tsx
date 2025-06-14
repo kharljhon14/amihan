@@ -1,10 +1,10 @@
 interface Props {
   image: string;
   title: string;
-  price: string;
+  subtitle: string;
 }
 
-export default function ProductCard({ image, title, price }: Props) {
+export default function Card({ image, title, subtitle }: Props) {
   return (
     <div className=" w-full cursor-pointer">
       <a href="#">
@@ -17,7 +17,7 @@ export default function ProductCard({ image, title, price }: Props) {
         </div>
         <div className="mt-2 px-2">
           <p className="text-xl">{title}</p>
-          <p className="text-gray-700 text-xl">&#x20B1;{price}</p>
+          <p className="text-gray-700 text-md">{subtitle}</p>
         </div>
       </a>
     </div>

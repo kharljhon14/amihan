@@ -1,4 +1,4 @@
-import ProductCard from './product-card';
+import Card from './product-card';
 
 export default function Products() {
   return (
@@ -15,25 +15,25 @@ export default function Products() {
         </button>
       </div>
       <div className="flex justify-center gap-4">
-        <ProductCard
+        <Card
           image="/images/image4.jpg"
           title="Whispers of Dawn"
-          price="2,450"
+          subtitle="&#8369;2,450"
         />
-        <ProductCard
+        <Card
           image="/images/image2.jpg"
           title="Velvet Horizon"
-          price="1,800"
+          subtitle="&#8369;1,800"
         />
-        <ProductCard
+        <Card
           image="/images/image3.jpg"
           title="Quiet Ember"
-          price="2,150"
+          subtitle="&#8369;2,150"
         />
-        <ProductCard
+        <Card
           image="/images/image1.jpg"
           title="Golden Reverie"
-          price="2,000"
+          subtitle="&#8369;2,000"
         />
       </div>
     </div>
