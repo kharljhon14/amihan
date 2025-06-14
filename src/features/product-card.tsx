@@ -8,12 +8,13 @@ export default function Card({ image, title, subtitle }: Props) {
   return (
     <div className=" w-full cursor-pointer">
       <a href="#">
-        <div className="overflow-hidden h-[32rem]">
+        <div className="overflow-hidden h-[32rem] relative">
           <img
             className="w-full h-full object-cover object-center hover:scale-110 hover:rotate-1 transition-transform duration-500"
             src={image}
             alt={title}
           />
+          <div className="bg-black/30 absolute inset-0 pointer-events-none"></div>
         </div>
         <div className="mt-2 px-2">
           <p className="text-xl">{title}</p>

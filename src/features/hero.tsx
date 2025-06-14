@@ -27,7 +27,7 @@ export default function Hero() {
         <Button>Discover Our Icons</Button>
         <a
           href="#"
-          className="bg-gray-800 -right-5 font-light bottom-28 fixed text-white text-lg -rotate-90 px-2 uppercase"
+          className="bg-gray-800 -right-5 z-40 font-light bottom-28 fixed text-white text-lg -rotate-90 px-2 uppercase"
         >
           chat
         </a>
