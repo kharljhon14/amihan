@@ -1,12 +1,18 @@
 import Header from './components/header';
-import Hero from './components/hero';
+import Hero from './features/hero';
+import Products from './features/products';
 
 function App() {
   return (
-    <main>
+    <>
       <Header />
-      <Hero />
-    </main>
+      <main className="space-y-12">
+        <Hero />
+        <div className="mx-4">
+          <Products />
+        </div>
+      </main>
+    </>
   );
 }
 

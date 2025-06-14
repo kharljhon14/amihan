@@ -29,7 +29,7 @@ export default function Header() {
       </nav>
       <div>
         <h1 className="text-4xl font-bold">
-          <a href="">Amihan</a>
+          <a href="">La Princesse</a>
         </h1>
       </div>
       <nav className="flex gap-4">
