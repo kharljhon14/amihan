@@ -1,8 +1,16 @@
 import Card from './product-card';
+import { motion } from 'motion/react';
 
 export default function Journals() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 1
+      }}
+    >
       <div className="flex items-center justify-between uppercase gap-8 mb-12 mx-4">
         <h2 className="text-5xl">Journal</h2>
         <a
@@ -34,6 +42,6 @@ export default function Journals() {
           subtitle="Exploring the stories behind every shimmer, silhouette, and thoughtful creation."
         />
       </div>
-    </div>
+    </motion.div>
   );
 }

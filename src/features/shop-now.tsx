@@ -1,8 +1,15 @@
 import FeatureCard from './feature-card';
-
+import { motion } from 'motion/react';
 export default function ShopNow() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 1
+      }}
+    >
       <div className="flex items-center justify-center mb-12">
         <a
           className="uppercase underline text-xl"
@@ -33,6 +40,6 @@ export default function ShopNow() {
           image="/images/image9.jpg"
         />
       </div>
-    </div>
+    </motion.div>
   );
 }

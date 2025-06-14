@@ -1,6 +1,16 @@
+import { motion } from 'motion/react';
+
 export default function Header() {
   return (
-    <header className="flex items-center justify-between py-2 px-6 shadow-2xl uppercase">
+    <motion.header
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 2
+      }}
+      className="flex items-center justify-between py-2 px-6 shadow-2xl uppercase"
+    >
       <nav className="flex gap-4">
         <a
           className="hover:underline"
@@ -58,6 +68,6 @@ export default function Header() {
           Bag
         </a>
       </nav>
-    </header>
+    </motion.header>
   );
 }

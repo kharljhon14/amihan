@@ -1,6 +1,16 @@
+import { motion } from 'motion/react';
+
 export default function Footer() {
   return (
-    <footer className="px-4 pt-12 pb-8">
+    <motion.footer
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 1
+      }}
+      className="px-4 pt-12 pb-8"
+    >
       <div className="flex justify-between uppercase text-sm">
         <nav className="flex flex-col gap-2 text-gray-600">
           <a href="">Contact Us</a>
@@ -42,6 +52,6 @@ export default function Footer() {
         <p className="">Crafted with 💙 in the Philippines.</p>
         <p className="">© 2025 Amihan. All rights reserved.</p>
       </div>
-    </footer>
+    </motion.footer>
   );
 }

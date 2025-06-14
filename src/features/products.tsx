@@ -1,8 +1,16 @@
 import Card from './product-card';
+import { motion } from 'motion/react';
 
 export default function Products() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 1
+      }}
+    >
       <div className="flex items-center justify-center gap-8 mb-12">
         <button className="uppercase cursor-pointer text-gray-500 hover:text-black transition-colors duration-300">
           Icons
@@ -36,6 +44,6 @@ export default function Products() {
           subtitle="&#8369;2,000"
         />
       </div>
-    </div>
+    </motion.div>
   );
 }
