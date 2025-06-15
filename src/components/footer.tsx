@@ -11,7 +11,7 @@ export default function Footer() {
       }}
       className="px-4 pt-12 pb-8"
     >
-      <div className="flex justify-between uppercase text-sm">
+      <div className="flex  flex-col lg:flex-row gap-8 justify-between uppercase text-sm">
         <nav className="flex flex-col gap-2 text-gray-600">
           <a href="">Contact Us</a>
           <a href="">Shipping</a>
@@ -41,13 +41,13 @@ export default function Footer() {
             Recieve updates on new arrivals, exclusive events, store openings, news and more.
           </p>
           <input
-            className="border-b border-gray-400 outline-0"
+            className="border-b border-gray-400 outline-0 max-w-sm"
             type="text"
             placeholder="Email address"
           />
         </div>
       </div>
-      <div className="flex justify-between uppercase text-sm text-gray-500 mt-10">
+      <div className="flex flex-col lg:flex-row justify-between uppercase lg:text-sm text-gray-500 mt-10">
         <p className="font-semibold">Karlikha</p>
         <p className="">Crafted with 💙 in the Philippines.</p>
         <p className="">© 2025 La Princesse. All rights reserved.</p>
