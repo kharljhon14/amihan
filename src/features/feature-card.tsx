@@ -8,7 +8,7 @@ interface Props {
 
 export default function FeatureCard({ image, title, header }: Props) {
   return (
-    <div className="relative h-[46rem] flex-1/3 ">
+    <div className="relative h-[46rem] lg:flex-1/3 flex-1/2 ">
       <div className="h-full absolute inset-0 -z-10">
         <img
           src={image}

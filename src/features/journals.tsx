@@ -12,7 +12,7 @@ export default function Journals() {
       }}
     >
       <div className="flex items-center justify-between uppercase gap-8 mb-12 mx-4">
-        <h2 className="text-5xl">Journal</h2>
+        <h2 className="lg:text-5xl text-2xl">Journal</h2>
         <a
           className="underline"
           href="#"
@@ -20,7 +20,7 @@ export default function Journals() {
           Read the Journal
         </a>
       </div>
-      <div className="flex justify-center gap-4">
+      <div className="flex flex-col lg:flex-row justify-center gap-4">
         <Card
           image="/images/image12.jpg"
           title="Whispers of Gold"

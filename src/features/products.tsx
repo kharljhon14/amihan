@@ -22,7 +22,7 @@ export default function Products() {
           Personalised
         </button>
       </div>
-      <div className="flex justify-center gap-4">
+      <div className="flex flex-col lg:flex-row justify-center gap-4">
         <Card
           image="/images/image4.jpg"
           title="Whispers of Dawn"

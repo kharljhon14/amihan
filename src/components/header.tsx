@@ -85,7 +85,7 @@ export default function Header() {
       <div
         className={`absolute ${
           openMobileNav ? 'w-full left-0' : 'w-0 -left-96'
-        } bg-white p-8 top-10 transition-all duration-200 shadow-md`}
+        } bg-white p-8 top-10 transition-all duration-300 shadow-md`}
       >
         <nav className="flex flex-col gap-4">
           <a

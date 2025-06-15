@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <main className="space-y-12">
+      <main className="space-y-12">
         <Hero />
         <div className="mx-4 space-y-12">
           <Products />
@@ -18,7 +18,7 @@ function App() {
           <Journals />
         </div>
         <LearnMore />
-      </main> */}
+      </main>
       <Footer />
     </>
   );

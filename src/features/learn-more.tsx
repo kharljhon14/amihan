@@ -14,7 +14,7 @@ export default function LearnMore() {
     >
       <div className="w-full h-full text-white  overflow-hidden relative uppercase flex items-center justify-center flex-col gap-10">
         <div className="text-center">
-          <h2 className="text-4xl mb-4">Discover the Story Behind the Shine</h2>
+          <h2 className="lg:text-4xl text-2xl mb-4">Discover the Story Behind the Shine</h2>
           <p>
             Beyond the surface lies a journey of design, craftsmanship, and the values we hold
             close.

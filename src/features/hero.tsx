@@ -10,7 +10,7 @@ export default function Hero() {
       transition={{
         duration: 1
       }}
-      className="bg-[url(/images/hero.jpg)] bg-gray-200 bg-blend-multiply h-[95vh] bg-center bg-cover"
+      className="bg-[url(/images/hero.jpg)] bg-gray-200 bg-blend-multiply h-[70vh] lg:h-[95vh] bg-center bg-cover"
     >
       <div className="w-full h-full overflow-hidden relative uppercase flex items-center justify-center flex-col gap-10">
         <motion.h2
@@ -20,7 +20,7 @@ export default function Hero() {
           transition={{
             duration: 4
           }}
-          className=" select-none text-white  text-9xl font-light"
+          className=" select-none text-white text-6xl  lg:text-9xl font-light"
         >
           La Princesse
         </motion.h2>
